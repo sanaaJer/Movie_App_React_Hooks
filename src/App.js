@@ -2,10 +2,13 @@
 import { useState } from 'react';
 import './App.css';
 import MovieCard from './MovieCard';
+import MovieList from './MovieList';
+
 
 
 const App=()=> {
-   const [movies,setMovies]=useState([{
+  const [movies,setMovies]=useState([
+    {
     title:'Avatar',
      description:'Avatar is the story of Jake Sully, a paraplegic marine, who replaces his brother on a secret mission to infiltrate the Navi, the colony of beings that sit on the planet of Pandora, where there is a precious ore, that sells at a ridiculous amount.',
       posterURL:'/avatar.jpg',
@@ -22,12 +25,36 @@ const App=()=> {
     description:'The story follows timid teenager Peter Parker, who gains superhuman abilities after being bitten by a genetically engineered spider. He adopts the masked persona "Spider-Man" and begins to fight crime in New York City, facing the malevolent Green Goblin in the process.',
      posterURL:'/spiderMan.jpg',
       rating:'4.5'
-   }])
+   },
+   {
+    title:'Avatar',
+     description:'Avatar is the story of Jake Sully, a paraplegic marine, who replaces his brother on a secret mission to infiltrate the Navi, the colony of beings that sit on the planet of Pandora, where there is a precious ore, that sells at a ridiculous amount.',
+      posterURL:'/avatar.jpg',
+       rating:'4.3'
+   },
+   {
+    title:'Avatar',
+     description:'Avatar is the story of Jake Sully, a paraplegic marine, who replaces his brother on a secret mission to infiltrate the Navi, the colony of beings that sit on the planet of Pandora, where there is a precious ore, that sells at a ridiculous amount.',
+      posterURL:'/avatar.jpg',
+       rating:'4.3'
+   },
+   {
+    title:'Avatar',
+     description:'Avatar is the story of Jake Sully, a paraplegic marine, who replaces his brother on a secret mission to infiltrate the Navi, the colony of beings that sit on the planet of Pandora, where there is a precious ore, that sells at a ridiculous amount.',
+      posterURL:'/avatar.jpg',
+       rating:'4.3'
+   },
+   
+  
+  ])
 
 
+ 
   return(
+   
     <div >
-      <MovieCard></MovieCard>
+      
+      <MovieList movies={movies}/>
     </div>
   );
 
