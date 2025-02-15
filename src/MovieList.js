@@ -10,7 +10,7 @@ import MovieCard from './MovieCard';
         <div style={listStyleDiv}>
               {
               //  if the filterInput empty we display all movies , else filtering (by title rate)
-               ((filterInput==='')? movies:movies.filter((e)=>e.title.toLowerCase().startsWith(filterInput.toLowerCase()) || e.rating.startsWith(filterInput)))
+               ((filterInput==='')? movies:movies.filter((e)=>e.title.toLowerCase().startsWith(filterInput.toLowerCase()) || e.rating.toString().startsWith(filterInput)))
                .map((e) =>( <MovieCard  {...e} /> ) )
                }
          </div>
