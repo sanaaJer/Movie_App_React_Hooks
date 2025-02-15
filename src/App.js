@@ -33,19 +33,19 @@ const App=()=> {
        rating:'4.7'
    },
    {
-    title:'The father',
-     description:'The Father is a 2020 psychological drama film, directed by Florian Zeller in his directorial debut. He co-wrote the screenplay with fellow playwright Christopher Hampton on the basis of Zeller.A French–British co-production, the film stars Anthony Hopkins as an octogenarian Welsh man living with dementia.',
-      posterURL:'/father.jpg',
-       rating:'4.3'
-   },
-   {
     title:'Inception',
      description:'Inception is a 2010 science fiction action heist film written and directed by Christopher Nolan, who also produced it with Emma Thomas, his wife. The film stars Leonardo DiCaprio as a professional thief who steals information by infiltrating the subconscious of his targets.',
       posterURL:'/inception.jpg',
        rating:'4.4'
    },
+   {
+    title:'The father',
+     description:'The Father is a 2020 psychological drama film, directed by Florian Zeller in his directorial debut. He co-wrote the screenplay with fellow playwright Christopher Hampton on the basis of Zeller.A French–British co-production, the film stars Anthony Hopkins as an octogenarian Welsh man living with dementia.',
+      posterURL:'/father.jpg',
+       rating:'4.3'
+   }
    
-  
+   
   ])
  // Create refs of input's form
  const titleRef = useRef('');
