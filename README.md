@@ -1,3 +1,9 @@
+# movie application
+Built with react javascript.
+features: display movies, add new movie,filter movies by (title, rate)
+
+![Movie App Screenshot](sc1.PNG)
+![Movie App Screenshot](sc2.PNG)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
