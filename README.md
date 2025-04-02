@@ -1,4 +1,4 @@
-# movie application
+# Movie application
 Built with react javascript.
 features: display movies, add new movie,filter movies by (title, rate)
 
